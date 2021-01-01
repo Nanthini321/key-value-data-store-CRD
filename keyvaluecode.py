@@ -5,7 +5,8 @@ import time
 
 filepath = "D:\data.json"
 d={} 
-
+def changefilepath(path):
+    filepath = path
 
 def create(key,value,timeout=0):
     json_file = open(filepath, "r") 
